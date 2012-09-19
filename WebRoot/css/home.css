@@ -1,0 +1,421 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#inner_home
+{
+    width: 100%;
+    height: 1130px;
+}
+
+#contentblock_home
+{
+    width: 960px;
+    height: 1120px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+#coverflow
+{
+    width: 100%;
+    height: 530px;
+    position: relative;
+}
+
+#contenthome
+{
+    width: 100%;
+    height: 590px;
+    position: relative;
+}
+
+#content_left
+{
+    width: 750px;
+    height: inherit;
+    float: left;
+    position: relative;
+}
+
+/* introduction */
+
+#intro
+{
+    width: 100%;
+    position: absolute;
+    background-color: White;
+    text-align: left;
+}
+
+#intro_table
+{
+    width: 100%;
+    border: solid 1px #d3d3d3;
+}
+
+#intro_table_td_1
+{
+    border-bottom: solid 1px #d3d3d3;
+    height: 40px;
+    vertical-align: text-bottom;
+}
+
+#intro_table_div_1
+{
+    margin-left: 10px;
+    position: relative;
+    height: 30px;
+    top: 15px;
+    font-family: Arial;
+    font-size: large;
+    color: #4d4d4d;
+}
+
+#intro_table_div_2
+{
+    margin-left: 10px;
+    text-align: justify;
+}
+
+
+#intro_table_td_2
+{
+    width: 120px;
+    height: 90px;
+}
+
+#intro_table_td_2_img
+{
+    width: 120px;
+    height: 80px;
+}
+
+
+/* about us, seriveces, price, our work */
+
+#panel
+{
+    width: 100%;
+    height: 267px;
+    position: relative;
+    top: 145px;
+    left: 0px;
+}
+
+.decoratebox
+{
+    background-color: #c0c0c0;
+    width: 100%;
+    height: 10px;
+}
+
+.panelbox
+{
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+
+.subpanel
+{
+    width: 240px;
+    background-color: #f2f2f2;
+}
+
+#subpanel_left
+{
+    position: absolute;
+    border: solid 1px #d3d3d3;
+    height: 265px;
+}
+
+#subpanel_middle
+{
+    position: absolute;
+    left: 255px;
+    height: 265px;
+    border: solid 1px #d3d3d3;
+}
+
+#subpanel_right
+{
+    position: absolute;
+    left: 510px;
+    border: solid 1px #d3d3d3;
+    height: 265px;
+}
+
+.subpanel_pic
+{
+    width: 80%;
+    margin-left: 10px;
+    vertical-align: sub;
+    text-align: justify;
+    color: White;
+    font-family: Arial;
+    font-size: large;
+    position: relative;
+    top: 10px;
+}
+
+
+
+.subpanel_cont
+{
+    width: 220px;
+    height: 185px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.subpanel_more
+{
+    width: 80px;
+    height: 20px;
+    margin-top: -20px;
+    border: solid 1px #c0c0c0;
+    margin-left: 140px;
+    text-align: center;
+    position: relative;
+    padding-right: auto;
+}
+
+.subpanel_more a
+{
+    color: #4e4e4e;
+    text-decoration: none;
+}
+
+#subpanel_cont
+{
+    position: absolute;
+    top: 105px;
+    left: 5px;
+}
+
+/* what can we do for you? */
+
+#mission
+{
+    width: 100%;
+    height: 143px;
+    top: 425px;
+    position: absolute;
+}
+
+#mission_table
+{
+    width: 100%;
+    border: solid 1px #d3d3d3;
+}
+
+#mission_table_td_1
+{
+    border-bottom: solid 1px #d3d3d3;
+    height: 35px;
+    vertical-align: text-bottom;
+}
+
+#mission_table_td_1_div
+{
+    margin-left: 10px;
+    position: relative;
+    height: 20px;
+    top: 15px;
+    font-family: Arial;
+    font-size: large;
+    color: #4d4d4d;
+}
+
+#mission_table_td_2
+{
+    vertical-align: middle;
+    height: 100px;
+}
+
+#mission_table_td_2_div
+{
+    margin-left: 10px;
+    margin-top: auto;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+/* quote form */
+
+#content_right
+{
+    width: 200px;
+    height: inherit;
+    float: right;
+    position: relative; /*border:solid 1px #d3d3d3;*/
+}
+
+#promotion_form
+{
+    width: 200px;
+    height: 145px;
+    position: relative;
+    background-image: url( '../images/discount_20.png' );
+    background-repeat: no-repeat;
+}
+
+#direction_form
+{
+    width: 200px;
+    height: 390px;
+    position: relative;
+    background-image: url( '../images/direction.png' );
+    background-repeat: no-repeat;
+}
+
+.dir_form
+{
+    vertical-align: sub;
+    text-align: justify;
+    color: White;
+    font-family: Arial;
+    font-size: small;
+    text-decoration: none;
+}
+
+#dir_contact
+{
+    width: 45px;
+    height: 16px;
+    position: relative;
+    left: 112px;
+    top: 23px;
+}
+
+#dir_facebook
+{
+    width: 57px;
+    height: 16px;
+    position: relative;
+    left: 35px;
+    top: 76px;
+}
+
+#dir_twitter
+{
+    width: 38px;
+    height: 16px;
+    position: relative;
+    left: 114px;
+    top: 133px;
+}
+
+#dir_linkedin
+{
+    width: 48px;
+    height: 16px;
+    position: relative;
+    left: 40px;
+    top: 190px;
+}
+
+#dir_faqs
+{
+    width: 34px;
+    height: 16px;
+    position: relative;
+    left: 118px;
+    top: 244px;
+}
+
+.formlist
+{
+    color: #333;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+
+#contact_us
+{
+    margin: 0 auto;
+    float: none;
+    width: 92%;
+    height: 600px;
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    background-color: #E1E1E1;
+}
+
+#contact_banner
+{
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    background-color: #8ABC1B;
+}
+
+#contact_banner label
+{
+    font-size: 26px;
+    color: #E2FCAB;
+    white-space: nowrap;
+    text-shadow: 2px 2px 3px #777;
+    line-height: 48px;
+    left: 200px;
+    position: absolute;
+}
+
+#contact_banner p
+{
+    font-size: 16px;
+    color: White;
+    white-space: nowrap;
+    line-height: 20px;
+    top: 25px;
+    left: 250px;
+    position: absolute;
+}
+
+#contact_info
+{
+    width: 100%;
+    height: 200px;
+    position: inherit;
+    top: 20px;
+    font-size: 20px;
+}
+
+#contact_info h1
+{
+    color: blue;
+    left: 10px;
+    position: relative;
+}
+

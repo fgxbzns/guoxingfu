@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>masterPage.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <head runat="server">
+    <title>BOC Painting Sale</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <%-- css --%>
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="text_center">
+        <table id="frame_table">
+            <tr>
+                <td>
+                    <div id="header_pic">
+                        <img name="indextest20_r1_c1" src="../images/indextest2.0_r1_c1.jpg" id="Img1" width="800" alt="pic"
+                            border="0" height="200" />
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Menu -->
+                    <div id="menu">
+                        <table id="menu_table">
+                            <tr style="background-color: #fa7300; font-size: 16px; height: 30px;">
+                                <td>
+                                    <a href="../Default.aspx">Home</a>
+                                </td>
+                                <td>
+                                    <a href="portfolio.aspx">Portfolio</a>
+                                </td>
+                                <td>
+                                    <a href="about.aspx">About</a>
+                                </td>
+                                <td>
+                                    <a href="contactUs.aspx">Contat Us</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- For content display -->
+                    <div id="contentframe">
+<!--                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">-->
+<!--                        </asp:ContentPlaceHolder>-->
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- For footer display -->
+                    <div id="footer">
+                    <!-- Footer part 1 -->
+<!--                    <table id="footer_table" cellspacing="0">-->
+<!--                        <tr>-->
+<!--                            <td id="footer_table_td" class="text_right">-->
+<!--                                <img alt="all the time, we provide cutting edge technologies!" src="../images/footer_green.png"-->
+<!--                                    class="margin_left_auto" />-->
+<!--                            </td>-->
+<!--                            <td style="width: 210px;">-->
+<!--                            </td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <td>-->
+<!--                                <div id="footer_p1">-->
+<!--                                </div>-->
+<!--                                 Footer part 2 -->
+<!--                                <div id="footer_p2">-->
+<!--                                    <p>-->
+<!--                                        <a href="Default.aspx">Home</a> . <a href="services.aspx">Services</a> . <a href="portfolio.aspx">-->
+<!--                                            Portfolio</a> . <a href="aboutus.aspx">About</a> . <a href="faqs.aspx">FAQs</a>-->
+<!--                                        . <a href="ContactUs.aspx">Contact</a>-->
+<!--                                    </p>-->
+<!--                                    <p>-->
+<!--                                        © 2011 TimePointer LLC Design. All Rights Reserved-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </td>-->
+<!--                            <td align="left" valign="top">-->
+<!--                                <img src="../images/footer_logo.png" alt="TimePionter" id="footer_logo" />-->
+<!--                            </td>-->
+<!--                        </tr>-->
+<!--                    </table>-->
+                </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

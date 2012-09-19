@@ -1,0 +1,196 @@
+﻿/* header  
+body
+{
+  position: relative;
+}*/
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+#version_td
+{
+    background-color: #464646; 
+    height: 27px; 
+    text-align: right; 
+    font-size: x-small;
+    color: #dddddd; 
+    font-family: Arial;
+}
+
+#version_div
+{
+	width: 200px;
+    position: relative; 
+    margin-right: 20px;
+    float: right;
+}
+
+#tplogo_td
+{
+    height: 65px;   
+}
+
+#tplogo_link
+{
+    margin-left: auto; 
+    position: relative;
+    left: 20px;
+}
+
+#tplogo_img
+{
+    width: 180px; 
+    height: 38px; 
+    border: 0px; 
+    margin-top: 10px;   
+}
+
+
+.menu
+{
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li
+{
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	cursor: pointer;
+	float: left;
+	width: 100px;
+	height: 30px;
+	margin-right: 0px;
+	background-image: url('../images/tpmenu.jpg');
+	background-repeat: no-repeat;
+}
+
+.menu a
+{
+	display: block;
+	height: 30px;
+	text-indent: -9999px;
+	outline: none;
+}
+
+.menu_cn
+{
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.menu_cn li
+{
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	cursor: pointer;
+	float: left;
+	width: 100px;
+	height: 30px;
+	margin-right: 0px;
+	background-image: url('../images/tpmenu_cn.jpg');
+	background-repeat: no-repeat;
+}
+
+.menu_cn a
+{
+	display: block;
+	height: 30px;
+	text-indent: -9999px;
+	outline: none;
+}
+
+#menu_home
+{
+	background-position: 0px 0px;
+}
+
+#menu_services
+{
+	background-position: -150px 0px;
+}
+
+#menu_portfolio
+{
+	background-position: -300px 0px;
+}
+
+#menu_about
+{
+	background-position: -450px 0px;
+}
+
+#menu_faqs
+{
+	background-position: -600px 0px;
+}
+
+#menu_contact
+{
+	background-position: -750px 0px;
+}
+
+#menu_home.active, #menu_home:hover
+{
+	background-position: 0 bottom;
+}
+
+
+#menu_services.active, #menu_services:hover
+{
+	background-position: -150px bottom;
+}
+
+#menu_portfolio.active, #menu_portfolio:hover
+{
+	background-position: -300px bottom;
+}
+
+#menu_about.active, #menu_about:hover
+{
+	background-position: -450px bottom;
+}
+
+#menu_faqs.active, #menu_faqs:hover
+{
+	background-position: -600px bottom;
+}
+
+#menu_contact.active, #menu_contact:hover
+{
+	background-position: -750px bottom;
+}
+
+
+#contentframe
+{
+	width: 100%;
+    text-align:left;
+}
+
+
+*/

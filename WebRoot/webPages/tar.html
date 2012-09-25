@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    <title>Using tar to archive</title>
+  </head>
+
+  <body bgcolor="#FFFFFF">
+      <h1>Using tar to archive</h1>
+
+The program <em>tar</em> (originally for tape archive) is useful 
+for archiving  and transmitting files.  For example, you may want to
+'tar up' all your work for a course on the acpub 
+and save it to your own computer's disk drive so you don't run into
+quota problems.  You might also want to submit (e.g., for cps 108 or
+cps 100) an entire directory at once rather than the individual files
+in the directory.  The tar program is useful for these and other tasks
+and is simple to use.
+      <p>
+You can see more information by reading the man page, type <em>man tar</em>
+The examples below are not meant to be exhaustive.  
+      </p><p>
+Note: on the acpub system you probably want to use
+<tt>/afs/acpub/projct/cps/bin/tar</tt> since it understands the z
+option.  <strong>You can use gtar instead</strong>.
+
+
+</p><h2>Create, Extract, See Contents</h2>
+
+The tar program takes one of three <em>funcion</em> command line
+      arguments (there are two others I won't talk about).
+      <ul>
+	<li> <strong>c</strong> --- to create a tar file, writing the
+	  file starts at the beginning.
+	  <p>
+	</p></li><li> <strong>t</strong> --- table of contents, see the names of
+	  all files or those specified in other command line arguments.
+	  <p>
+	</p></li><li> <strong>x</strong> --- extract (restore) the contents of
+	  the tar file.
+      </li></ul>
+(the other options are <em>u</em> for update and <em>r</em> for replace,
+see the man page for details).
+      <p>
+Exactly one function argument, c, t, x, is used in conjunction with
+other command line arguments shown below.  Again, these examples are not
+meant to be complete, just useful. 
+      </p><p>
+</p><h2>Compression, Verbose, File specified</h2>
+
+In addition to a function command line argument the arguments below are
+useful.  I usually use <strong>z</strong> and <strong>f</strong> all the
+time, and <strong>v</strong> when creating/extracting.
+      <p>
+      </p><ul>
+	<li> <strong>f</strong> --- specifies the filename (which
+	  follows the f) used to tar into or to tar out from; see the
+	  examples below.
+	  <p>
+	</p></li><li> <strong>z</strong> --- use zip/gzip to compress the tar
+	  file or to read from a compressed tar file.
+	  <p>
+	</p></li><li> <strong>v</strong> --- verbose output, show, e.g., during create
+	  or extract, the files being stored into or restored from the
+	  tar file.
+      </li></ul>
+      <p>
+
+</p><h2>Examples</h2>
+
+To tar all .cc and .h files into a tar file named <tt>foo.tgz</tt> use:
+<pre>    tar cvzf foo.tgz *.cc *.h
+</pre>
+This creates (c) a compressed (z) tar file named <tt>foo.tgz</tt> (f)
+and shows the files being stored into the tar file (v).  The
+<em>.tgz</em> suffix is a convention for gzipped tar files, it's useful
+to use the convention since you'll know to use z to restore/extract.
+      <p>
+It's often more useful to tar a directory (which tars all files and
+subdirectories recursively unless you specify otherwise).  The nice part
+about tarring a directory is that it is untarred as a directory
+rather than as individual files.
+</p><pre>   tar cvzf foo.tgz cps100
+</pre>
+
+will tar the directory cps100 (and its files/subdirectories) into a tar
+file named <tt>foo.tgz</tt>.
+      <p>
+To see a tar file's table of contents use:
+</p><pre>   tar tzf foo.tgz
+</pre>
+      <p>
+To extract the contents of a tar file use:
+</p><pre>
+    tar xvzf foo.tgz
+</pre>
+This untars/extracts (x) into the directory from which the command is
+invoked, and prints the files being extracted (v).
+      <p>
+If you want to untar into a specified directory, change into that
+directory and then use tar. For example, to untar into a directory named
+<em>newdir</em>:
+</p><pre>   mkdir newdir
+   cd newdir
+   tar xvzf ../foo.tgz
+</pre>
+      <p>
+You can extract only one (or several) files if you know the name of the
+file.  For example, to extract the file named <tt>anagram.cc</tt> from
+the tarfile <tt>foo.tgz</tt>:
+</p><pre>   tar xvzf foo.tgz anagram.cc
+</pre>
+
+<h1>Other Archiving/Compression Tools</h1>
+
+Many PC/Mac programs will be able to restore files that have been
+archived using tar.  For example, on Macs, the Stuffit Deluxe program
+can handle Unix tar files.  On PCs, the pkunzip program will handle Unix
+tar files.  This makes it possible to tar files up on acpub and then use
+ftp to bring them to your personal machine where you can store the tar
+files and restore when needed.  Of course you can run Linux too.
+<p>
+
+The <em>zip</em> and <em>unzip</em> commands available on acpub and CS
+systems, are very useful replacements for tar.  Zip/unzip programs are
+nearly standard on Windows 95/NT machines and zip will archive entire
+directory structures with the right options (type <em>zip</em> by itself
+for help).
+
+      </p>
+
+ 
+
+</body></html>
